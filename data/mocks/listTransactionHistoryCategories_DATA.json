@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Fees",
+        "slug": "fees",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_BILLING_FEE"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Reward",
+        "slug": "redeem",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_LOYALTY_REWARDS_REDEMPTION"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Bonus",
+        "slug": "bonus",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_ACCOUNTS_INITIAL_PREFUND",
+                    "LOYALTY_CASH_BACK",
+                    "PYYPL_ACCOUNTS_REFERRAL_BONUS",
+                    "LOYALTY_POINTS",
+                    "PYYPL_LOAD_COMMISSION"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Topup",
+        "slug": "topup",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_LOAD_CARD_LOAD"
+                ],
+                "name": "Card Top-up",
+                "slug": "card-topup"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_ACQUIRER_UPAY_AE_KIOSK_LOAD",
+                    "PYYPL_ACQUIRER_MBME_AE_KIOSK_LOAD"
+                ],
+                "name": "Cash Top-up",
+                "slug": "cash-topup"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_MANUAL_BANK_TRANSFER_LOAD",
+                    "PYYPL_LOAD_MANUAL_BANK_TRANSFER"
+                ],
+                "name": "Bank Transfer",
+                "slug": "bank-transfer"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_LOAD_MPESA_LOAD",
+                    "PYYPL_LOAD_MOBILE_MONEY_LOAD",
+                    "PYYPL_LOAD_WALLET_LOAD"
+                ],
+                "name": "Mobile Wallet Top-up",
+                "slug": "mobile-wallet-topup"
+            }
+        ]
+    },
+    {
+        "name": "Crypto",
+        "slug": "crypto",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_PNW_BINANCE_CRYPTO_TRANSFER"
+                ],
+                "name": "Transfer to Another Crypto Wallet",
+                "slug": "transfer-to-another-crypto-wallet"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_PNW_BINANCE_CRYPTO_LOAD"
+                ],
+                "name": "Crypto Top-up",
+                "slug": "crypto-topup"
+            },
+            {
+                "eventNames": [
+                    "PNW_COINMOTION_SOLD_FIAT"
+                ],
+                "name": "Sold FIAT",
+                "slug": "sold-fiat"
+            },
+            {
+                "eventNames": [
+                    "PNW_COINMOTION_BOUGHT_FIAT"
+                ],
+                "name": "Bought FIAT",
+                "slug": "bought-fiat"
+            },
+            {
+                "eventNames": [
+                    "PNW_COINMOTION_SOLD_CRYPTO"
+                ],
+                "name": "Sold Crypto",
+                "slug": "sold-crypto"
+            },
+            {
+                "eventNames": [
+                    "PNW_COINMOTION_BOUGHT_CRYPTO"
+                ],
+                "name": "Bought Crypto",
+                "slug": "bought-crypto"
+            }
+        ]
+    },
+    {
+        "name": "Send Money",
+        "slug": "send-money",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_PNW_MPESA_PAYMENT",
+                    "PYYPL_PNW_RIPPLENET*",
+                    "PYYPL_PNW_FLUTTERWAVE*"
+                ],
+                "name": "Remittance",
+                "slug": "remittance"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_PNW_PYYPL_TRANSFER",
+                    "PYYPL_PNW_MPESA_KE_PAYMENT",
+                    "PYYPL_PNW_VODACOM_PAYMENT"
+                ],
+                "name": "Local Transfer",
+                "slug": "local-transfer"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_TRANSACTIONS_FX*"
+                ],
+                "name": "Foreign Transfer",
+                "slug": "foreign-transfer"
+            }
+        ]
+    },
+    {
+        "name": "Commission",
+        "slug": "commission",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_EMPLOYEE_DEALER_FUNDING_COMMISSION"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Airtime",
+        "slug": "airtime",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_AIRTIME_TRANSFER_DATA"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Bill Payment",
+        "slug": "bill-payment",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_ACQUIRER_UPAY_AE_BILL_PAYMENT"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Insurance",
+        "slug": "insurance",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_INSURANCE_PURCHASE"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Debenture",
+        "slug": "debenture",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_DEBENTURES_INVESTOR_COMMITMENT"
+                ],
+                "name": "Investment",
+                "slug": "debenture-investment"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_DEBENTURES_INSTALLMENT_PAYMENT"
+                ],
+                "name": "Installment",
+                "slug": "debenture-installment"
+            },
+            {
+                "eventNames": [
+                    "PYYPL_DEBENTURES_LOAN_DISBURSEMENT"
+                ],
+                "name": "Loan",
+                "slug": "debenture-loan"
+            }
+        ]
+    },
+    {
+        "name": "Payme",
+        "slug": "payme",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_PAYME*"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Card Purchase",
+        "slug": "card-purchase",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_ISSUER_CARD_PAYMENT",
+                    "PYYPL_ISSUER_CARD_PAYMENT_FAILURE"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    },
+    {
+        "name": "Vouchers",
+        "slug": "vouchers",
+        "transactionHistorySubCategories": [
+            {
+                "eventNames": [
+                    "PYYPL_VOUCHERS_VOUCHER_CREATION",
+                    "PYYPL_VOUCHERS_VOUCHER_CONSUMPTION"
+                ],
+                "name": "*",
+                "slug": "*"
+            }
+        ]
+    }
+]

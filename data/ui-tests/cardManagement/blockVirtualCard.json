@@ -1,0 +1,12 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500322",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "featureId": "BLOCK_CARD"
+    }
+]

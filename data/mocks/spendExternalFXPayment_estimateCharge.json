@@ -1,0 +1,12 @@
+{
+    "amount": 0,
+    "currency": "AED",
+    "period": null,
+    "charge": {
+      "fixed": 0,
+      "variable": 0
+    },
+    "accountToAmount": null,
+    "accountToCurrency": null,
+    "accountToCharge": null
+  }

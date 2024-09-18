@@ -1,0 +1,14 @@
+[
+    {
+        "country": "Uganda",
+        "phoneNumber": "752635783",
+        "passcode": "1111",
+        "countryCode": "+256",
+        "amount": 1,
+        "loadCurrency": "USD",
+        "logout": false,
+        "newInstance": true,
+        "loadMoneyType": "FLUTTERWAVE_MOBILE_MONEY_UG",
+        "paidCurrency": "UGX"
+    }
+]

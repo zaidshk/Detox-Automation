@@ -1,0 +1,13 @@
+[
+    {
+        "featureId": "CREATE_ACCOUNT",
+        "country": "United Arab Emirates",
+        "phoneNumber": "505269991",
+        "passcode": "0000",
+        "countryCode": "+971",
+        "otp": "111111",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true
+    }
+]

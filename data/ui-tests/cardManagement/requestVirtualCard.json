@@ -1,0 +1,17 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500322",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "accountCards": {
+            "count": 1
+        },
+        "featureId": "REQUEST_VIRTUALCARD",
+        "userId": "32263cfd-460d-189c-d52d-1ba78b037322",
+        "accountId": "3226bf11-e0f5-421f-adf2-33aaf7d31322"
+    }
+]

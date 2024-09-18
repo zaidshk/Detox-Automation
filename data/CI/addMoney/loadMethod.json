@@ -1,0 +1,39 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971"
+    },
+    {
+        "country": "Bahrain",
+        "phoneNumber": "36565237",
+        "passcode": "1234",
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+973",
+        "currency": "BHD"
+    },
+    {
+        "country": "India",
+        "phoneNumber": "9886820824",
+        "passcode": "1111",
+        "currency": "USD",
+        "testType": "NORMAL",
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+91"
+    },
+    {
+        "country": "Kenya",
+        "phoneNumber": "701996688",
+        "passcode": "1111",
+        "currency": "KES",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+254"
+    }
+]

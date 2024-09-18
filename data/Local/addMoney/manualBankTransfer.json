@@ -1,0 +1,37 @@
+[
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1111",
+        "amount":22,
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+971",
+        "name": "Load Provider Bank Transfer",
+        "currency" : "AED",
+        "loadMethodName": "BANK_TRANSFER"
+    },{
+        "country":"Kenya",
+        "phoneNumber":"701996688",
+        "passcode":"1111",
+        "amount":22,
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+254",
+        "name": "Load Provider Bank Transfer",
+        "currency" : "KES",
+        "loadMethodName": "BANK_TRANSFER"
+    }, {
+        "country":"Bahrain",
+        "phoneNumber":"36565237",
+        "passcode":"1234",
+        "amount":2,
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+973",
+        "name": "Load Provider Bank Transfer",
+        "currency" : "BHD",
+        "loadMethodName": "BANK_TRANSFER"
+    }
+  
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "userId": "27363cfd-460d-189c-d52d-1ba78b037022",
+        "accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "passcode": "1111",
+        "currency": "AED",
+        "deleteApp": false,
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971",
+        "listLoadMethods": [
+            "LOAD#CASH#1",
+            "LOAD#CHECKOUT_DEBIT_CARD#1",
+            "LOAD#CHECKOUT_PAYPAL_WALLET#1",
+            "EXCHANGE#CRYPTO_PNW#1",
+            "LOAD#QR_CODE#1"
+        ],
+        "featureId": "LISTLOADMETHOD",
+        "scenarioId": "DATA"
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "userId": "27363cfd-460d-189c-d52d-1ba78b037022",
+        "accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "passcode": "1111",
+        "currency": "AED",
+        "deleteApp": false,
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971",
+        "listLoadMethods": [],
+        "featureId": "LISTLOADMETHOD",
+        "scenarioId": "NODATA"
+    }
+]

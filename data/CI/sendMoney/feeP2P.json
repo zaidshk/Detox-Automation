@@ -1,0 +1,18 @@
+{
+    "AED": {
+        "senderCurrency": "AED",
+        "minimumAmount": 100,
+        "fee": 2
+    },
+    "KES": {
+        "senderCurrency": "KES",
+        "minimumAmount": 35,
+        "fee": 35
+    },
+    "USD": {
+        "senderCurrency": "USD",
+        "fee": 0.02,
+        "minimumAmount": 5,
+        "feeIncrement": 0.01
+    }
+}

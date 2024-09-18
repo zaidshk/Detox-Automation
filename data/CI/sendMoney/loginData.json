@@ -1,0 +1,14 @@
+ {
+    "UAE" : {
+    "country":"United Arab Emirates",
+    "phoneNumber":"545269990", 
+    "passcode":"1111" 
+    },
+
+    "INTL": {
+        "country":"Kenya",
+        "phoneNumber":"722222210", 
+        "passcode":"1111"
+    }
+
+}

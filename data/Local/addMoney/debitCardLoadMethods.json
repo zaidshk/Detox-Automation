@@ -1,0 +1,18 @@
+[{
+    "deleteApp": false,
+    "country":"United Arab Emirates",
+    "phoneNumber":"545269990",
+    "passcode":"1111",
+    "amount":100,
+    "countryCode": "+971",
+    "currency": "AED",
+    "cardNumber" :"5000186622346654",
+    "cardExpiry": "1224",
+    "cardCVV":"257",
+    "checkoutCardType": "Load from Foreign Payment Card",
+    "strip4digit":"5556",
+    "stripeCardType": "Load from Foreign Payment Card",
+    "completedTitle": "Transaction completed",
+    "status": "Confirmed"
+ 
+}]

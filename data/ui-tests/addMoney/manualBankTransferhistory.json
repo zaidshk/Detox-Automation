@@ -1,0 +1,32 @@
+[
+    {
+        "featureId": "MANUALBANK_HISTORY",
+        "scenarioId": "DATA",
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "userId": "27363cfd-460d-189c-d52d-1ba78b037022",
+        "accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "amount":22,
+        "passcode": "1111",
+        "currency": "AED",
+        "deleteApp": false,
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971"
+    },
+    {
+        "featureId": "MANUALBANK_HISTORY",
+        "scenarioId": "NODATA",
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "userId": "27363cfd-460d-189c-d52d-1ba78b037022",
+        "accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "amount":22,
+        "passcode": "1111",
+        "currency": "AED",
+        "deleteApp": false,
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971"
+    }
+]

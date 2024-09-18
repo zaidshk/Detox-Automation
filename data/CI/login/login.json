@@ -1,0 +1,27 @@
+[
+
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1112",
+        "currency" : "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "listLoadMethods": ["LOAD#CASH#1", "LOAD#CHECKOUT_DEBIT_CARD#1", "LOAD#CHECKOUT_PAYPAL_WALLET#1","LOAD#QR_CODE#1","LOAD#BINANCE_PAY#1"],
+        "testID" : "Passcode-Fail"
+    },
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1112",
+        "currency" : "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "listLoadMethods": ["LOAD#CASH#1", "LOAD#CHECKOUT_DEBIT_CARD#1", "LOAD#CHECKOUT_PAYPAL_WALLET#1","LOAD#QR_CODE#1","LOAD#BINANCE_PAY#1"],
+        "testID" : "Passcode-Pass"
+    }
+]

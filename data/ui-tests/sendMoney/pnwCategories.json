@@ -1,0 +1,38 @@
+[
+    {
+        "featureId": "LISTPNWCATEGORIES",
+        "scenarioId": "DATA",
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "userId": "27363cfd-460d-189c-d52d-1ba78b037022",
+        "accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "passcode": "1111",
+        "currency": "AED",
+        "deleteApp": false,
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971",
+        "pnwCategories": [
+            "PYYPL_TO_PYYPL",
+            "INTERNATIONAL_TRANSFER",
+            "BLOCK_CHAIN_TRANSFER"
+        ]
+       
+    },
+    {
+        "featureId": "LISTPNWCATEGORIES",
+        "scenarioId": "NODATA",
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "userId": "27363cfd-460d-189c-d52d-1ba78b037022",
+        "accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "passcode": "1111",
+        "currency": "AED",
+        "deleteApp": false,
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971",
+        "pnwCategories": []
+       
+    }
+]

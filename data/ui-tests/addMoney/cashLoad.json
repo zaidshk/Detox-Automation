@@ -1,0 +1,24 @@
+[
+    {
+        "featureId": "ADDMONEY_CASHLOAD",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971",
+        "scenarioId": "Kiosk"
+    },
+    {
+        "featureId": "ADDMONEY_CASHLOAD",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971",
+        "scenarioId": "Dealer"
+    }
+]

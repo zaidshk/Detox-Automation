@@ -1,0 +1,17 @@
+{
+    "transferData": null,
+    "transferFundingTransaction": {
+        "transactionRecordId": "81d38703-c41b-4e50-9c11-250e1a94c7cb",
+        "transactionId": "f2fb84b1-9536-47e6-b84c-edc5c170a5b8",
+        "status": "CONFIRMED",
+        "createdAt": "2023-07-27T09:25:56.957Z",
+        "description": "Pyypl Transfer from TERESIAH NJERI KIRIETHE",
+        "accountTo": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+        "accountFrom": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+        "currencyFrom": "AED",
+        "currencyTo": "AED",
+        "amountFrom": 2000,
+        "amountTo": 2000
+    },
+    "transferErrorMessage": null
+}

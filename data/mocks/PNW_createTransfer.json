@@ -1,0 +1,17 @@
+{
+    "transferData": "\"\\\"{\\\\\\\"fxRate\\\\\\\":{\\\\\\\"base\\\\\\\":\\\\\\\"AED\\\\\\\",\\\\\\\"counter\\\\\\\":\\\\\\\"INR\\\\\\\",\\\\\\\"rate\\\\\\\":20.3814713896458},\\\\\\\"pnwTransferSubStatus\\\\\\\":\\\\\\\"IN_TRANSIT\\\\\\\"}\\\"\"",
+    "transferFundingTransaction": {
+        "transactionRecordId": "bc6878af-f817-4f1c-bacb-9281b3c20290",
+        "transactionId": "90606515-3ef1-44a1-b35d-2005edb7c292",
+        "status": "AUTHORIZED",
+        "createdAt": "2023-07-15T07:51:17.144Z",
+        "description": "International Money Transfer to India",
+        "accountTo": "ab22ea08-3feb-4bed-a8a6-87be68284ef1",
+        "accountFrom": "2dfe4f8f-3d33-4a03-b5cc-813ac0692f99",
+        "currencyFrom": "AED",
+        "currencyTo": "AED",
+        "amountFrom": 1000,
+        "amountTo": 1000
+    },
+    "transferErrorMessage": null
+}

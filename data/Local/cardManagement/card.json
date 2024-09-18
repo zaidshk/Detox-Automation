@@ -1,0 +1,38 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "551234464",
+        "passcode": "1234",
+        "countryCode": "+971",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithBalance"
+    },
+    {
+        "country": "India",
+        "phoneNumber": "9123456555",
+        "passcode": "0000",
+        "countryCode": "+91",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithBalance"
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "561540150",
+        "passcode": "1234",
+        "countryCode": "+971",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithoutBalance"
+    },
+    {
+        "country": "India",
+        "phoneNumber": "9786543211",
+        "passcode": "1234",
+        "countryCode": "+91",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithoutBalance"
+    }
+]

@@ -1,0 +1,241 @@
+ [
+            {
+                "transferId": "c42ed1f8-a51f-41c9-b2bf-2417da8ff9e0",
+                "transferRouteId": "PNW#CN#PNW#TRANGLO#WALLET#001",
+                "transferRouteTargetCurrency": "CNY",
+                "transferRoutePurchaseCurrency": "AED",
+                "transferRouteMinAmount": "0",
+                "transferRouteMaxAmount": "214472",
+                "transferRouteDestinationCountry": "CN",
+                "transferRouteDescription": null,
+                "transferRoutePayoutMethodId": "PNW#TRANGLO#WALLET#001",
+                "transferRoutePayoutMethodType": "WALLET",
+                "transferRouteDailyAllowedLimit": null,
+                "transferRouteTransactionAllowedLimit": null,
+                "transferRouteTargetAccountId": null,
+                "transferRouteEstimatedDuration": "FIFTEEN_MINUTES",
+                "transferRoutePnwProcessorPaymentMethodQuoteId": "19b45dfe-39f1-44fd-8214-0dff0507cf4f",
+                "transferRouteTargetUser": null,
+                "transferRouteFees": [
+                    {
+                        "amount": 2700,
+                        "currency": "AED"
+                    }
+                ],
+                "transferRoutePayoutTargets": [
+                    {
+                        "payoutTargetCode": "EWALIPAY",
+                        "payoutTargetName": "Alipay",
+                        "payoutTargetType": null
+                    }
+                ],
+                "transferRouteFXRate": {
+                    "base": "AED",
+                    "counter": "CNY",
+                    "rate": 1.7036512261580374,
+                    "convertedAmount": null
+                },
+                "transferRouteRequiredUserInformation": [
+                    {
+                        "userInformationFieldName": "senderSourceOfCash",
+                        "userInformationFieldValueType": "ENUM",
+                        "userInformationFieldDescription": "Sender Source of Cash",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": [
+                            "REPY",
+                            "SELF",
+                            "EMIN",
+                            "SVGS",
+                            "GIFT",
+                            "INHE",
+                            "REDM",
+                            "WINS",
+                            "INLQ",
+                            "SALE",
+                            "REST",
+                            "SEAQ",
+                            "CASH",
+                            "ALMY",
+                            "COMP",
+                            "RETA",
+                            "PACA"
+                        ],
+                        "userInformationFieldGroupName": "SENDER_DATA",
+                        "userInformationFieldSections": [
+                            "SENDER_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": null,
+                        "userInformationFieldStringMaxLength": null,
+                        "userInformationFieldStringMinLength": null
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryFirstName",
+                        "userInformationFieldValueType": "STRING",
+                        "userInformationFieldDescription": "Beneficiary First Name",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": null,
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "BENEFICIARY_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                        "userInformationFieldStringMaxLength": 50,
+                        "userInformationFieldStringMinLength": 1
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryLastName",
+                        "userInformationFieldValueType": "STRING",
+                        "userInformationFieldDescription": "Beneficiary Last Name",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": null,
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "BENEFICIARY_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                        "userInformationFieldStringMaxLength": 50,
+                        "userInformationFieldStringMinLength": 1
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryRelationshipToSender",
+                        "userInformationFieldValueType": "ENUM",
+                        "userInformationFieldDescription": "Beneficiary Relationship to Sender",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": [
+                            "SELF",
+                            "EMPL",
+                            "VEND",
+                            "OTHR",
+                            "CHIL",
+                            "PARE",
+                            "SPOU",
+                            "RELA",
+                            "SIBL",
+                            "EXSP",
+                            "CUST",
+                            "PART"
+                        ],
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "BENEFICIARY_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": null,
+                        "userInformationFieldStringMaxLength": null,
+                        "userInformationFieldStringMinLength": null
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryIdentityDocumentType",
+                        "userInformationFieldValueType": "ENUM",
+                        "userInformationFieldDescription": "Beneficiary Identity Document Type",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": [
+                            "ARNU",
+                            "CCPT",
+                            "CUST",
+                            "DRLC",
+                            "EMPL",
+                            "NIDN",
+                            "SOS",
+                            "TXID"
+                        ],
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "BENEFICIARY_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": null,
+                        "userInformationFieldStringMaxLength": null,
+                        "userInformationFieldStringMinLength": null
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryIdentityDocumentNumber",
+                        "userInformationFieldValueType": "STRING",
+                        "userInformationFieldDescription": "Beneficiary Identity Document Number",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": null,
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "BENEFICIARY_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                        "userInformationFieldStringMaxLength": 50,
+                        "userInformationFieldStringMinLength": 1
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryTargetInstitutionId",
+                        "userInformationFieldValueType": "PAYOUT_TARGET",
+                        "userInformationFieldDescription": "Beneficiary Target Institution Id",
+                        "userInformationFieldLabel": "WALLET_TARGET_PAYOUT_ID",
+                        "userInformationFieldAllowedValues": null,
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "WALLET_PAYOUT_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": null,
+                        "userInformationFieldStringMaxLength": null,
+                        "userInformationFieldStringMinLength": null
+                    },
+                    {
+                        "userInformationFieldName": "paymentPurposeCode",
+                        "userInformationFieldValueType": "ENUM",
+                        "userInformationFieldDescription": "Payment Purpose Code",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": [
+                            "DEPT",
+                            "INTC",
+                            "BEXP",
+                            "LICF",
+                            "SUBS",
+                            "COMP",
+                            "LOAN",
+                            "LOAR",
+                            "EDUC",
+                            "FEES",
+                            "IVPT",
+                            "RENT",
+                            "STDY",
+                            "TBIL",
+                            "INVS",
+                            "MDCS",
+                            "ALLW",
+                            "BONU",
+                            "COMM",
+                            "PAYR",
+                            "SALA",
+                            "GSTX",
+                            "TAXS",
+                            "VATX",
+                            "UBIL",
+                            "ACCT",
+                            "FAMI",
+                            "GIFT",
+                            "OTHR",
+                            "OCDM",
+                            "OCFG"
+                        ],
+                        "userInformationFieldGroupName": "PAYMENT_DATA",
+                        "userInformationFieldSections": [
+                            "PAYMENT_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": null,
+                        "userInformationFieldStringMaxLength": null,
+                        "userInformationFieldStringMinLength": null
+                    },
+                    {
+                        "userInformationFieldName": "beneficiaryPhoneNumber",
+                        "userInformationFieldValueType": "STRING",
+                        "userInformationFieldDescription": "Beneficiary Mobile Number",
+                        "userInformationFieldLabel": null,
+                        "userInformationFieldAllowedValues": null,
+                        "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                        "userInformationFieldSections": [
+                            "BENEFICIARY_DATA_SECTION"
+                        ],
+                        "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                        "userInformationFieldStringMaxLength": 50,
+                        "userInformationFieldStringMinLength": 1
+                    }
+                ],
+                "transferRouteFixedAmounts": null
+            }
+        ]
+ 

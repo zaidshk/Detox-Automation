@@ -1,0 +1,14 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269991",
+        "passcode": "1111",
+        "amount": 50,
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+971",
+        "name": "Load Provider Bank Transfer",
+        "currency": "AED",
+        "loadMethodName": "BANK_TRANSFER"
+    }
+]

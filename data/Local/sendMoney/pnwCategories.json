@@ -1,0 +1,25 @@
+[
+
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1111",
+        "senderCurrency" : "AED",
+        "countryCode": "+971"
+    },
+    {
+        "country":"Kenya",
+        "phoneNumber":"701996688",
+        "passcode":"1111",
+        "senderCurrency" : "KES",
+        "countryCode": "+254"
+    },
+    {
+        "country":"India",
+        "phoneNumber":"8758495213",
+        "passcode":"1234",
+        "senderCurrency" : "USD",
+        "countryCode": "+91"
+    }
+    
+]

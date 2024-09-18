@@ -1,0 +1,56 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "551234464",
+        "passcode": "1234",
+        "countryCode": "+971",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithBalance",
+        "desiredFeatureNames": [
+            "VIRTUAL_CARD_REQUEST",
+            "PHYSICAL_CARD_REQUEST",
+            "PHYSICAL_CARD_ACTIVATE"
+        ]
+    },
+    {
+        "country": "India",
+        "phoneNumber": "8756905224",
+        "passcode": "1111",
+        "countryCode": "+91",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithBalance",
+        "desiredFeatureNames": [
+            "VIRTUAL_CARD_REQUEST",
+            "PHYSICAL_CARD_ACTIVATE"
+        ]
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "561540150",
+        "passcode": "1234",
+        "countryCode": "+971",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithoutBalance",
+        "desiredFeatureNames": [
+            "VIRTUAL_CARD_REQUEST",
+            "PHYSICAL_CARD_REQUEST",
+            "PHYSICAL_CARD_ACTIVATE"
+        ]
+    },
+    {
+        "country": "India",
+        "phoneNumber": "9786543211",
+        "passcode": "1234",
+        "countryCode": "+91",
+        "newInstance": true,
+        "logout": true,
+        "userType": "newUserWithoutBalance",
+        "desiredFeatureNames": [
+            "VIRTUAL_CARD_REQUEST",
+            "PHYSICAL_CARD_ACTIVATE"
+        ]
+    }
+]

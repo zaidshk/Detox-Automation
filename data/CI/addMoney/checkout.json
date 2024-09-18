@@ -1,0 +1,17 @@
+[
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1111",
+        "countryCode": "+971",
+        "amount":"50",
+        "logout": false,
+        "newInstance": true,
+        "loadMoneyType": "CHECKOUT_DEBIT_CARD",
+        "currency": "AED",
+        "cardNumber" :"5000186622346654",
+        "cardExpiry": "1224",
+        "cardCVV":"257"
+        
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "featureId": "TRANSACTION_LIST",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "senderCurrency": "AED",
+        "scenarioId": "DATA",
+        "logout": false,
+        "deleteApp": false,
+        "newInstance": true,
+        "senderCountryCode": "+971"
+    },
+    {
+        "featureId": "TRANSACTION_LIST",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "senderCurrency": "AED",
+        "scenarioId": "NODATA",
+        "logout": false,
+        "deleteApp": false,
+        "newInstance": true,
+        "senderCountryCode": "+971"
+    }
+]

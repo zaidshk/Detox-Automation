@@ -1,0 +1,10 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "501122334",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "newInstance": true,
+        "logout": true
+    }
+]

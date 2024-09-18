@@ -1,0 +1,31 @@
+[
+    {
+        "newInstance": true,
+        "logout": true,
+        "country": "United Arab Emirates",
+        "phoneNumber": "581122334",
+        "passcode": "1234",
+        "countryCode": "+971",
+        "currency": "AED",
+        "city": "Dubai",
+        "desiredFeatureNames": [
+            "VIRTUAL_CARD_REQUEST",
+            "PHYSICAL_CARD_REQUEST",
+            "PHYSICAL_CARD_ACTIVATE"
+        ]
+    },
+    {
+        "newInstance": true,
+        "logout": true,
+        "country": "India",
+        "phoneNumber": "8758495213",
+        "passcode": "1111",
+        "countryCode": "+91",
+        "currency": "USD",
+        "city": "",
+        "desiredFeatureNames": [
+            "VIRTUAL_CARD_REQUEST",
+            "PHYSICAL_CARD_ACTIVATE"
+        ]
+    }
+]

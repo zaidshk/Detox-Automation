@@ -1,0 +1,290 @@
+{
+	"data": {
+		"verifyPasscode": true,
+		"hasCompletedOnboarding": {
+			"completed": true
+		},
+		"listUserSensitiveAttributes": {
+			"userId": "32263cfd-460d-189c-d52d-1ba78b037322",
+			"userSensitiveAttributeId": "mock_userSensitiveAttributeId",
+			"userSensitiveAttributeType": "mock_userSensitiveAttributeId"
+		},
+		"getUser": {
+			"userId": "32263cfd-460d-189c-d52d-1ba78b037322",
+			"phoneNumberVerified": true,
+			"acceptedTermsAndConditions__createdTimestamp": null,
+			"createdAt": "2022-10-28T05:12:01.784Z",
+			"status": "TnC_ACCEPTED",
+			"loyaltyStatus": null,
+			"phoneNumber": "+971505500322",
+			"locale": "en",
+			"assignedOperatingCountry": "AE",
+			"firstName": "TERESIAH NJERI",
+			"lastName": "KIRIETHE",
+			"nickname": "",
+			"dateOfBirth": "1990-08-20T00:00:00.000Z",
+			"nationality": "KEN",
+			"emailAddress": "32263cfd-460d-189c-d52d-1ba78b037322@dev.pyypl.io",
+			"userExternalSupportChatCustomerId": null,
+			"emailAddressVerified": null,
+			"countryCode": "AE"
+		},
+		"listAccounts": {
+			"data": [
+				{
+					"accountId": "9d37cc6d-e75c-4893-8ca7-67b6138184c5",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 11423,
+								"currency": "AED"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "Unconsumed unattached voucher value account",
+					"type": "Prepaid",
+					"state": "new"
+				},
+				{
+					"accountId": "4025c34e-041a-4608-a85c-599663af44da",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 0,
+								"currency": "AED"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "Unconsumed attached voucher value account",
+					"type": "Prepaid",
+					"state": "new"
+				},
+				{
+					"accountId": "057e7276-8bce-438b-bf33-42ca75ed8c25",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 0,
+								"currency": "AED"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "escrow",
+					"type": "Prepaid",
+					"state": "new"
+				},
+				{
+					"accountId": "3226bf11-e0f5-421f-adf2-33aaf7d31322",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 478472,
+								"currency": "AED"
+							},
+							{
+								"amount": 652000,
+								"currency": "BTC"
+							},
+							{
+								"amount": 15000,
+								"currency": "USD"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "default",
+					"type": "Prepaid",
+					"state": "new"
+				}
+			]
+		},
+		"listServiceFeatures": [
+			{
+				"serviceFeatureName": "LOAD_MONEY",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "SEND_MONEY",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "INVITE_FRIEND",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "CARD_SERVICE",
+				"serviceFeatureStatus": "UNAVAILABLE",
+				"serviceFeatureUnavailableReasons": [
+					{
+						"serviceFeatureUnavailableReasonCategory": "OPERATIONAL",
+						"serviceFeatureUnavailableReasonName": "MAINTENANCE"
+					}
+				]
+			},
+			{
+				"serviceFeatureName": "VIRTUAL_CARD_REQUEST",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "PHYSICAL_CARD_REQUEST",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "PAYME",
+				"serviceFeatureStatus": "UNAVAILABLE",
+				"serviceFeatureUnavailableReasons": [
+					{
+						"serviceFeatureUnavailableReasonCategory": "OPERATIONAL",
+						"serviceFeatureUnavailableReasonName": "MAINTENANCE"
+					}
+				]
+			},
+			{
+				"serviceFeatureName": "PHYSICAL_CARD_ACTIVATE",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "EXCHANGE_CRYPTO",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "DEALER_NETWORK",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "MASTER_DEALER_NETWORK",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "DEBENTURE_BONDS",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "DEBENTURE_INVESTMENT",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "BASE_KYC",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			}
+		],
+		"getAccountCards": {
+			"count": 2,
+			"data": [
+				{
+					"cardId": "7b8f5c62-1808-45e1-9207-a9b2f632f81a",
+					"accountId": "3226bf11-e0f5-421f-adf2-33aaf7d31322",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "2642",
+					"cardHeadDigits": null,
+					"cardTailDigits": "2642",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:50:56.866Z",
+					"updatedAt": "2023-06-07T04:50:56.866Z"
+				},
+				{
+					"cardId": "7b8f5c62-1808-45e1-9207-a9b2f632f81a",
+					"accountId": "32263cfd-460d-189c-d52d-1ba78b037322",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "8888",
+					"cardHeadDigits": null,
+					"cardTailDigits": "2642",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "salmon",
+					"createdAt": "2023-06-07T04:50:56.866Z",
+					"updatedAt": "2023-06-07T04:50:56.866Z"
+				}
+			]
+		},
+		"listCardConfigurations": [
+			{
+				"cardType": "VIRTUAL",
+				"freeCardsLimit": 1,
+				"paidCardsLimit": 24,
+				"freeCardsRemaining": 0,
+				"paidCardsRemaining": 24
+			}
+		],
+		"estimateCharge": {
+			"accountToAmount": null,
+			"accountToCharge": null,
+			"accountToCurrency": null,
+			"amount": 1000,
+			"charge": {
+				"fixed": 1000,
+				"variable": 0
+			},
+			"currency": "AED",
+			"period": null
+		},
+		"requestVirtualCard": {
+			"cardId": "93757418-bc88-446d-a079-60d9b63b1465",
+			"accountId": "32263cfd-460d-189c-d52d-1ba78b037322",
+			"cardExpiryDate": "2026-08-31T23:59:59.999Z",
+			"cardLabel": "Nandhini Elancheran",
+			"cardStatus": "ACTIVE",
+			"cardColor": "purpleDark",
+			"cardType": "VIRTUAL",
+			"cardLast4": "7777",
+			"type": "VIRTUAL"
+		}
+	}
+}

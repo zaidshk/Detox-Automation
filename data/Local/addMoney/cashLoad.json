@@ -1,0 +1,12 @@
+[
+
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1111",
+        "currency" : "AED",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "scenarioId": "SWITCH",
+        "featureId": "RTL"
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "scenarioId": "DASHBOARD",
+        "featureId": "RTL"
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "scenarioId": "SENDMONEY",
+        "featureId": "RTL"
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "scenarioId": "ADDMONEY",
+        "featureId": "RTL"
+    },
+    {
+        "featureId": "RTL",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "currency": "AED",
+        "logout": true,
+        "newInstance": true,
+        "deleteApp": false,
+        "countryCode": "+971",
+        "scenarioId": "PROFILE"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "country": "India",
+        "phoneNumber": "9047516151",
+        "passcode": "1234",
+        "countryCode": "+91",
+        "amount": "5",
+        "logout": false,
+        "newInstance": true,
+        "loadMoneyType": "STRIPE_DEBIT_CARD",
+        "currency": "AED",
+        "cardNumber": "4000056655665556",
+        "cardExpiry": "1224",
+        "cardCVV": "257",
+        "last4Digit": "5556"
+    }
+]

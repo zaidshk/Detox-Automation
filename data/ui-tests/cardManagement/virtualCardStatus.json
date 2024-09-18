@@ -1,0 +1,48 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500322",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "featureId": "CARD_STATUS",
+        "scenarioId": "UNAVAILABLE",
+        "status": "Unavailable"
+    },{
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500322",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "featureId": "CARD_STATUS",
+        "scenarioId": "BLOCKED",
+        "status": "Blocked"
+    },
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500322",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "featureId": "CARD_STATUS",
+        "scenarioId": "FROZEN",
+        "status": "Frozen"
+    },{
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500322",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "featureId": "CARD_STATUS",
+        "scenarioId": "EXPIRED",
+        "status": "Expired"
+    }
+]

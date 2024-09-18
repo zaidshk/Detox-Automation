@@ -1,0 +1,36 @@
+[{
+    "pnwCategoryName": "PYYPL_TO_PYYPL",
+    "status": "ACTIVE",
+    "pnwSubCategories": []
+}, {
+    "pnwCategoryName": "LOCAL_TRANSFER",
+    "status": "INACTIVE",
+    "pnwSubCategories": [{
+        "pnwSubCategoryName": "LOCAL_BANK_TRANSFER",
+        "status": "INACTIVE"
+    }, {
+        "pnwSubCategoryName": "LOCAL_MOBILE_WALLET",
+        "status": "INACTIVE"
+    }]
+}, {
+    "pnwCategoryName": "INTERNATIONAL_TRANSFER",
+    "status": "ACTIVE",
+    "pnwSubCategories": [{
+        "pnwSubCategoryName": "INTERNATIONAL_BANK_TRANSFER",
+        "status": "ACTIVE"
+    }, {
+        "pnwSubCategoryName": "INTERNATIONAL_MOBILE_WALLET",
+        "status": "INACTIVE"
+    }, {
+        "pnwSubCategoryName": "INTERNATIONAL_CASH_PAYOUT",
+        "status": "ACTIVE"
+    }]
+}, {
+    "pnwCategoryName": "BLOCK_CHAIN_TRANSFER",
+    "status": "ACTIVE",
+    "pnwSubCategories": []
+}, {
+    "pnwCategoryName": "MOBILE_WALLETS",
+    "status": "INACTIVE",
+    "pnwSubCategories": []
+}]

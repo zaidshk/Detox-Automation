@@ -1,0 +1,22 @@
+[
+    {
+        "newInstance": true,
+        "logout": true,
+        "country": "United Arab Emirates",
+        "phoneNumber": "561530123",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "currency": "AED",
+        "city": "Dubai"
+    },
+    {
+        "newInstance": true,
+        "logout": true,
+        "country": "India",
+        "phoneNumber": "9047516151",
+        "passcode": "1234",
+        "countryCode": "+91",
+        "currency": "USD",
+        "city": ""
+    }
+]

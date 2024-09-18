@@ -1,0 +1,47 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "senderCountryCode": "+971",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "receiverCountry": "United Arab Emirates",
+        "receiver": "545269990",
+        "amount": "22",
+        "route": "PYYPL_TO_PYYPL",
+        "testType": "SELF",
+        "logout": false,
+        "newInstance": true,
+        "modalTitle": "Error",
+        "modalSubtitle": "You cannot send money to your own pyypl account"
+    },
+    {
+        "country": "United Arab Emirates",
+        "senderCountryCode": "+971",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "receiverCountry": "United Arab Emirates",
+        "receiver": "545269920",
+        "amount": "23",
+        "route": "PYYPL_TO_PYYPL",
+        "testType": "NOROUTE",
+        "logout": false,
+        "newInstance": true,
+        "modalTitle": "Transfer route unavailable",
+        "modalSubtitle": "Ooops, something went wrong..."
+    },
+    {
+        "country": "United Arab Emirates",
+        "senderCountryCode": "+971",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "receiverCountry": "United Arab Emirates",
+        "receiver": "501111111",
+        "amount": "24",
+        "route": "PYYPL_TO_PYYPL",
+        "testType": "NEW",
+        "logout": false,
+        "newInstance": true,
+        "modalTitle": "Not there yet",
+        "modalSubtitle": "The user you’re trying to send money to is not a pyypl customer yet. You can invite him to join us and benefit from our invite a friend program!"
+    }
+]

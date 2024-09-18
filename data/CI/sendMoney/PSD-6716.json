@@ -1,0 +1,46 @@
+[
+
+    {
+        "country":"United Arab Emirates",
+        "phoneNumber":"545269990",
+        "passcode":"1111",
+        "receiverCountry":"United Arab Emirates",
+        "receiver":"561540111", 
+        "amount":"22",
+        "senderCurrency" : "AED",
+        "route":"PYYPL_TO_PYYPL",
+        "testType":"NORMAL",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+971"
+    },
+    {
+        "country":"Kenya",
+        "phoneNumber":"701996688",
+        "passcode":"1111",
+        "receiverCountry":"Kenya",
+        "receiver":"708777789", 
+        "amount":"100",
+        "senderCurrency" : "KES",
+        "route":"PYYPL_TO_PYYPL",
+        "testType":"NORMAL",
+        "logout": true,
+        "newInstance": true,
+        "countryCode": "+254"
+    },
+    {
+        "country":"India",
+        "phoneNumber":"9047536353",
+        "passcode":"1234",
+        "receiverCountry":"India",
+        "receiver":"9047516151", 
+        "amount":"20",
+        "senderCurrency" : "USD",
+        "route":"PYYPL_TO_PYYPL",
+        "testType":"NORMAL",
+        "logout": false,
+        "newInstance": true,
+        "countryCode": "+91"
+    }
+    
+]

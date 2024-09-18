@@ -1,0 +1,612 @@
+{
+	"data": {
+		"verifyPasscode": true,
+		"hasCompletedOnboarding": {
+			"completed": true
+		},
+		"listUserSensitiveAttributes": {
+			"userId": "c323293d-ffb8-53e4-6a02-549733de244b",
+			"userSensitiveAttributeId": "mock_userSensitiveAttributeId",
+			"userSensitiveAttributeType": "mock_userSensitiveAttributeId"
+		},
+		"getUser": {
+			"userId": "c323293d-ffb8-53e4-6a02-549733de244b",
+			"phoneNumberVerified": true,
+			"acceptedTermsAndConditions__createdTimestamp": null,
+			"createdAt": "2022-10-28T05:12:01.784Z",
+			"status": "TnC_ACCEPTED",
+			"loyaltyStatus": null,
+			"phoneNumber": "+971545269990",
+			"locale": "en",
+			"assignedOperatingCountry": "AE",
+			"firstName": "TERESIAH NJERI",
+			"lastName": "KIRIETHE",
+			"nickname": "",
+			"dateOfBirth": "1990-08-20T00:00:00.000Z",
+			"nationality": "KEN",
+			"emailAddress": "c323293d-ffb8-53e4-6a02-549733de244b@dev.pyypl.io",
+			"userExternalSupportChatCustomerId": null,
+			"emailAddressVerified": null,
+			"countryCode": "AE"
+		},
+		"listAccounts": {
+			"data": [
+				{
+					"accountId": "9d37cc6d-e75c-4893-8ca7-67b6138184c5",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 11423,
+								"currency": "AED"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "Unconsumed unattached voucher value account",
+					"type": "Prepaid",
+					"state": "new"
+				},
+				{
+					"accountId": "4025c34e-041a-4608-a85c-599663af44da",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 0,
+								"currency": "AED"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "Unconsumed attached voucher value account",
+					"type": "Prepaid",
+					"state": "new"
+				},
+				{
+					"accountId": "057e7276-8bce-438b-bf33-42ca75ed8c25",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 0,
+								"currency": "AED"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "escrow",
+					"type": "Prepaid",
+					"state": "new"
+				},
+				{
+					"accountId": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+					"defaultCurrency": "AED",
+					"cardId": null,
+					"balances": {
+						"data": [
+							{
+								"amount": 478472,
+								"currency": "AED"
+							},
+							{
+								"amount": 652000,
+								"currency": "BTC"
+							},
+							{
+								"amount": 15000,
+								"currency": "USD"
+							}
+						]
+					},
+					"balanceLimits": [
+						{
+							"min": 0,
+							"max": 500000,
+							"type": "DYNAMIC",
+							"currency": "AED"
+						}
+					],
+					"name": "default",
+					"type": "Prepaid",
+					"state": "new"
+				}
+			]
+		},
+		"listServiceFeatures": [
+			{
+				"serviceFeatureName": "LOAD_MONEY",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "SEND_MONEY",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "INVITE_FRIEND",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "CARD_SERVICE",
+				"serviceFeatureStatus": "UNAVAILABLE",
+				"serviceFeatureUnavailableReasons": [
+					{
+						"serviceFeatureUnavailableReasonCategory": "OPERATIONAL",
+						"serviceFeatureUnavailableReasonName": "MAINTENANCE"
+					}
+				]
+			},
+			{
+				"serviceFeatureName": "VIRTUAL_CARD_REQUEST",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "PHYSICAL_CARD_REQUEST",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "PAYME",
+				"serviceFeatureStatus": "UNAVAILABLE",
+				"serviceFeatureUnavailableReasons": [
+					{
+						"serviceFeatureUnavailableReasonCategory": "OPERATIONAL",
+						"serviceFeatureUnavailableReasonName": "MAINTENANCE"
+					}
+				]
+			},
+			{
+				"serviceFeatureName": "PHYSICAL_CARD_ACTIVATE",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "EXCHANGE_CRYPTO",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "DEALER_NETWORK",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "MASTER_DEALER_NETWORK",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "DEBENTURE_BONDS",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "DEBENTURE_INVESTMENT",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			},
+			{
+				"serviceFeatureName": "BASE_KYC",
+				"serviceFeatureStatus": "AVAILABLE",
+				"serviceFeatureUnavailableReasons": null
+			}
+		],
+		"getAccountCards": {
+			"count": 25,
+			"data": [
+				{
+					"cardId": "7b8f5c62-1808-45e1-9207-a9b2f632f81a",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "2642",
+					"cardHeadDigits": null,
+					"cardTailDigits": "2642",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:50:56.866Z",
+					"updatedAt": "2023-06-07T04:50:56.866Z"
+				},
+				{
+					"cardId": "3939573e-38bd-4644-888e-78d8ed33c894",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "3231",
+					"cardHeadDigits": null,
+					"cardTailDigits": "3231",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:16:56.394Z",
+					"updatedAt": "2023-06-07T05:16:56.394Z"
+				},
+				{
+					"cardId": "ac3fd843-ce77-45ea-9865-ba3fce1a5982",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": "BLOCKED_BY_COMPLIANCE",
+					"cardType": "VIRTUAL",
+					"cardStatus": "BLOCKED",
+					"cardLast4": null,
+					"cardHeadDigits": null,
+					"cardTailDigits": null,
+					"cardExpiryDate": "2026-02-28T23:59:59.999Z",
+					"cardLabel": "NANDHINI Replaced card",
+					"cardColor": "mintDark",
+					"createdAt": "2023-02-14T11:34:25.755Z",
+					"updatedAt": "2023-02-14T11:45:27.766Z"
+				},
+				{
+					"cardId": "c4608cda-614e-4248-8d5f-f380a1b0d326",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "4999",
+					"cardHeadDigits": null,
+					"cardTailDigits": "4999",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:54:11.901Z",
+					"updatedAt": "2023-06-07T04:54:11.901Z"
+				},
+				{
+					"cardId": "a236bb10-8553-4adf-af44-d65fc15d409b",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "6037",
+					"cardHeadDigits": null,
+					"cardTailDigits": "6037",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:03:56.755Z",
+					"updatedAt": "2023-06-07T05:03:56.755Z"
+				},
+				{
+					"cardId": "45c92176-146b-4bb4-9e87-5d7830d2840b",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "0713",
+					"cardHeadDigits": null,
+					"cardTailDigits": "0713",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:26:42.598Z",
+					"updatedAt": "2023-06-07T05:26:42.598Z"
+				},
+				{
+					"cardId": "21031123-71fc-45de-bfc2-1088ab409c1c",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": "BLOCKED_BY_COMPLIANCE",
+					"cardType": "VIRTUAL",
+					"cardStatus": "BLOCKED",
+					"cardLast4": null,
+					"cardHeadDigits": null,
+					"cardTailDigits": null,
+					"cardExpiryDate": "2026-02-28T23:59:59.999Z",
+					"cardLabel": "NANDHINI ELANCHERAN replaced card",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-02-14T11:34:53.290Z",
+					"updatedAt": "2023-02-14T11:45:27.780Z"
+				},
+				{
+					"cardId": "fd7306e3-9001-4853-9cb3-606dc879e3fd",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "FROZEN",
+					"cardLast4": "9302",
+					"cardHeadDigits": null,
+					"cardTailDigits": "9302",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:44:29.608Z",
+					"updatedAt": "2023-06-09T10:49:57.739Z"
+				},
+				{
+					"cardId": "d33abb68-52cb-47a2-8c5b-2b1ec7e6c460",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "7907",
+					"cardHeadDigits": null,
+					"cardTailDigits": "7907",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:13:39.234Z",
+					"updatedAt": "2023-06-07T05:13:39.234Z"
+				},
+				{
+					"cardId": "f7d36c98-58e6-4c23-a9d5-db2b86272a1c",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "8982",
+					"cardHeadDigits": null,
+					"cardTailDigits": "8982",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:57:27.267Z",
+					"updatedAt": "2023-06-07T04:57:27.267Z"
+				},
+				{
+					"cardId": "e236ed28-9629-4334-804f-a1183f68cb56",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "FROZEN",
+					"cardLast4": "5415",
+					"cardHeadDigits": null,
+					"cardTailDigits": "5415",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:41:10.988Z",
+					"updatedAt": "2023-06-12T13:36:11.010Z"
+				},
+				{
+					"cardId": "cb677212-eb9c-42d4-8f7d-b7dd7dfb2313",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "9864",
+					"cardHeadDigits": null,
+					"cardTailDigits": "9864",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:36:32.412Z",
+					"updatedAt": "2023-06-07T05:36:32.412Z"
+				},
+				{
+					"cardId": "8479a5b1-0f6e-4d49-8a06-8418c9726334",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "2142",
+					"cardHeadDigits": null,
+					"cardTailDigits": "2142",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:33:18.523Z",
+					"updatedAt": "2023-06-07T05:33:18.523Z"
+				},
+				{
+					"cardId": "60bcf061-ae27-462f-825e-6787edd14864",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "7435",
+					"cardHeadDigits": null,
+					"cardTailDigits": "7435",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:39:46.676Z",
+					"updatedAt": "2023-06-07T05:39:46.676Z"
+				},
+				{
+					"cardId": "38026ca9-34fa-4318-812b-447a5a75e620",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "1983",
+					"cardHeadDigits": null,
+					"cardTailDigits": "1983",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:43:03.921Z",
+					"updatedAt": "2023-06-07T05:43:03.921Z"
+				},
+				{
+					"cardId": "8a1fceac-4882-4db5-951d-f73b0fd32dea",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "8210",
+					"cardHeadDigits": null,
+					"cardTailDigits": "8210",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:07:12.909Z",
+					"updatedAt": "2023-06-07T05:07:12.909Z"
+				},
+				{
+					"cardId": "df606680-eaf4-479e-b7f1-6aa80a25c46b",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "9135",
+					"cardHeadDigits": null,
+					"cardTailDigits": "9135",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:23:27.118Z",
+					"updatedAt": "2023-06-07T05:23:27.118Z"
+				},
+				{
+					"cardId": "d8960001-74ca-4402-a330-e49331106000",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "1778",
+					"cardHeadDigits": null,
+					"cardTailDigits": "1778",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:30:01.501Z",
+					"updatedAt": "2023-06-07T05:30:01.501Z"
+				},
+				{
+					"cardId": "fec68080-f47b-4120-b941-d7a7fd9a9227",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": "STOLEN",
+					"cardType": "VIRTUAL",
+					"cardStatus": "BLOCKED",
+					"cardLast4": "4695",
+					"cardHeadDigits": null,
+					"cardTailDigits": "4695",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:30:46.355Z",
+					"updatedAt": "2023-06-09T11:58:50.107Z"
+				},
+				{
+					"cardId": "1c17bd0e-5475-40f9-a4bd-e0d9fb801bba",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "0171",
+					"cardHeadDigits": null,
+					"cardTailDigits": "0171",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:10:27.418Z",
+					"updatedAt": "2023-06-07T05:10:27.418Z"
+				},
+				{
+					"cardId": "7dd3c8dd-d3fd-4af8-906f-9417d08a7ba8",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "3060",
+					"cardHeadDigits": null,
+					"cardTailDigits": "3060",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T04:47:44.189Z",
+					"updatedAt": "2023-06-07T04:47:44.189Z"
+				},
+				{
+					"cardId": "f1f743c8-bc6c-4050-ae81-4e22444efe78",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "6175",
+					"cardHeadDigits": null,
+					"cardTailDigits": "6175",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:00:43.110Z",
+					"updatedAt": "2023-06-07T05:00:43.110Z"
+				},
+				{
+					"cardId": "3f206a91-82d5-4d71-82a3-325b8c99bbc5",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "8004",
+					"cardHeadDigits": null,
+					"cardTailDigits": "8004",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:20:11.264Z",
+					"updatedAt": "2023-06-07T05:20:11.264Z"
+				},
+				{
+					"cardId": "e3749130-23dd-46f7-814c-c71a7baf0619",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": null,
+					"cardType": "VIRTUAL",
+					"cardStatus": "ACTIVE",
+					"cardLast4": "3166",
+					"cardHeadDigits": null,
+					"cardTailDigits": "3166",
+					"cardExpiryDate": "2026-06-30T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "purpleDark",
+					"createdAt": "2023-06-07T05:46:18.806Z",
+					"updatedAt": "2023-06-07T05:46:18.806Z"
+				},
+				{
+					"cardId": "45a86b4f-067b-48d3-b1b7-0ee100b31bb9",
+					"accountId": "7e76bf11-e0f5-421f-adf2-33aaf7d310ac",
+					"reason": "BLOCKED_BY_COMPLIANCE",
+					"cardType": "VIRTUAL",
+					"cardStatus": "BLOCKED",
+					"cardLast4": null,
+					"cardHeadDigits": null,
+					"cardTailDigits": null,
+					"cardExpiryDate": "2026-02-28T23:59:59.999Z",
+					"cardLabel": "Nandhini Elancheran",
+					"cardColor": "salmon",
+					"createdAt": "2023-02-14T11:35:44.127Z",
+					"updatedAt": "2023-02-14T11:45:27.737Z"
+				}
+			]
+		},
+		"listCardConfigurations": [
+			{
+				"cardType": "VIRTUAL",
+				"freeCardsLimit": 1,
+				"paidCardsLimit": 24,
+				"freeCardsRemaining": 0,
+				"paidCardsRemaining": 0
+			}
+		]
+	}
+}

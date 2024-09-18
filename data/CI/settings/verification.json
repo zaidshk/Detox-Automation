@@ -1,0 +1,11 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "passcode": "0000",
+        "countryCode": "+971",
+        "newInstance": true,
+        "logout": true,
+        "verificationType": "Notcompleted"
+    }
+]

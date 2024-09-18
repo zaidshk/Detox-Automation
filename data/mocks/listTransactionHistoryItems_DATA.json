@@ -1,0 +1,359 @@
+{
+    "count": 9,
+    "limit": 10,
+    "offset": 0,
+    "totalCount": 9,
+    "data": [
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "d0fc2a57-a662-4391-b8b4-b61eba10095b",
+            "amountFrom": 200,
+            "amountTo": 200,
+            "createdAt": "2023-08-16T05:23:11.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "Pyypl Fee for Local Money Transfer",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Fees",
+                    "slug": "fees",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_BILLING_FEE"
+                            ],
+                            "name": "*",
+                            "slug": "*"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_BILLING_FEE",
+                    "metaData": "{\"vat\":500,\"type\":\"FEE\",\"chargeId\":\"7e889958-c6f2-4e1f-b4c1-48de7878fd9e\",\"chargeEventName\":\"TRANSACTION_TO_DEALER\",\"chargedTransactionId\":\"fe836ca7-abbb-4ad9-8453-1d3117e8d2a0\",\"chargedTransactionRecordId\":\"1eee11b2-8f02-44e4-92cd-a297d408bed1\",\"chargedTransactionEventName\":\"PYYPL_PNW_PYYPL_TRANSFER\"}",
+                    "createdAt": null,
+                    "metaDataId": "c5dd4dad-30a7-46e4-bea4-8a051bdf26ab",
+                    "updatedAt": null,
+                    "transactionRecordId": "775f49aa-0622-4a65-a9fb-97d362695362"
+                }
+            ],
+            "status": "CONFIRMED",
+            "transactionId": "5ed4b8c6-109a-4ec3-b75d-cdc94b6f8c50",
+            "transactionRecordId": "775f49aa-0622-4a65-a9fb-97d362695362",
+            "updatedAt": "2023-08-16T05:23:11.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+            "amountFrom": 2000,
+            "amountTo": 2000,
+            "createdAt": "2023-08-16T05:22:54.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "to TERESIAH NJERI KIRIETHE",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Send Money",
+                    "slug": "send-money",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_PNW_PYYPL_TRANSFER",
+                                "PYYPL_PNW_MPESA_KE_PAYMENT",
+                                "PYYPL_PNW_VODACOM_PAYMENT"
+                            ],
+                            "name": "Local Transfer",
+                            "slug": "local-transfer"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_PNW_PYYPL_TRANSFER",
+                    "metaData": "{\"type\":\"PNW_PAYMENT\",\"accountTo\":\"17d8a0a8-bd2f-490e-8f9e-174460a0e640\",\"amountFrom\":2000,\"currencyTo\":\"AED\",\"senderNote\":\"Pyypl Integration Test Note \",\"accountFrom\":\"d857f2bb-9597-410c-a637-9c1cf6ce4b70\",\"currencyFrom\":\"AED\",\"pnwPaymentSenderData\":{\"senderNote\":\"Pyypl Integration Test Note \",\"senderLastName\":\"Automation\",\"senderFirstName\":\"Pyypl\",\"senderPhoneNumber\":\"+971553162398\"},\"transferRouteOptions\":{\"beneficiaryType\":\"{\\\"type\\\":\\\"PYYPL\\\",\\\"country\\\":\\\"AE\\\",\\\"beneficiaryDescription\\\":\\\"Pyypl\\\",\\\"targetCurrency\\\":\\\"AED\\\"}\",\"saveBeneficiary\":true},\"pnwPaymentBeneficiaryData\":{\"saveBeneficiary\":true,\"beneficiaryLastName\":\"KIRIETHE\",\"beneficiaryFirstName\":\"TERESIAH NJERI\",\"beneficiaryDescription\":\"Pyypl\",\"beneficiaryPhoneNumber\":\"+971545269990\"}}",
+                    "createdAt": null,
+                    "metaDataId": "cadc82e6-d1d0-4ce6-ae36-d08a637c1d54",
+                    "updatedAt": null,
+                    "transactionRecordId": "1eee11b2-8f02-44e4-92cd-a297d408bed1"
+                }
+            ],
+            "status": "FAILED",
+            "transactionId": "fe836ca7-abbb-4ad9-8453-1d3117e8d2a0",
+            "transactionRecordId": "1eee11b2-8f02-44e4-92cd-a297d408bed1",
+            "updatedAt": "2023-08-16T05:22:54.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "d0fc2a57-a662-4391-b8b4-b61eba10095b",
+            "amountFrom": 200,
+            "amountTo": 200,
+            "createdAt": "2023-08-16T17:00:14.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "Pyypl Fee for Local Money Transfer",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Fees",
+                    "slug": "fees",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_BILLING_FEE"
+                            ],
+                            "name": "*",
+                            "slug": "*"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_BILLING_FEE",
+                    "metaData": "{\"vat\":500,\"type\":\"FEE\",\"chargeId\":\"b7b06878-61ec-4f9e-a81a-3f97025b3dc0\",\"chargeEventName\":\"TRANSACTION_TO_DEALER\",\"chargedTransactionId\":\"a5a1df2a-cdeb-42b5-afc5-a37b2aa6873d\",\"chargedTransactionRecordId\":\"91aca935-09ef-44bb-a545-d87307f28671\",\"chargedTransactionEventName\":\"PYYPL_PNW_PYYPL_TRANSFER\"}",
+                    "createdAt": null,
+                    "metaDataId": "f7fff525-fe8b-49d0-b400-b081a1404fa9",
+                    "updatedAt": null,
+                    "transactionRecordId": "b45adb92-682a-4339-99db-c0eb09b58f0c"
+                }
+            ],
+            "status": "PENDING",
+            "transactionId": "1cb85613-a8f5-40c4-8f30-756522de6383",
+            "transactionRecordId": "b45adb92-682a-4339-99db-c0eb09b58f0c",
+            "updatedAt": "2023-08-16T17:00:14.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+            "amountFrom": 2000,
+            "amountTo": 2000,
+            "createdAt": "2023-08-16T17:00:09.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "to TERESIAH NJERI KIRIETHE",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Send Money",
+                    "slug": "send-money",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_PNW_PYYPL_TRANSFER",
+                                "PYYPL_PNW_MPESA_KE_PAYMENT",
+                                "PYYPL_PNW_VODACOM_PAYMENT"
+                            ],
+                            "name": "Local Transfer",
+                            "slug": "local-transfer"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_PNW_PYYPL_TRANSFER",
+                    "metaData": "{\"type\":\"PNW_PAYMENT\",\"accountTo\":\"17d8a0a8-bd2f-490e-8f9e-174460a0e640\",\"amountFrom\":2000,\"currencyTo\":\"AED\",\"senderNote\":\"Pyypl Integration Test Note \",\"accountFrom\":\"d857f2bb-9597-410c-a637-9c1cf6ce4b70\",\"currencyFrom\":\"AED\",\"pnwPaymentSenderData\":{\"senderNote\":\"Pyypl Integration Test Note \",\"senderLastName\":\"Automation\",\"senderFirstName\":\"Pyypl\",\"senderPhoneNumber\":\"+971553162398\"},\"transferRouteOptions\":{\"beneficiaryType\":\"{\\\"type\\\":\\\"PYYPL\\\",\\\"country\\\":\\\"AE\\\",\\\"beneficiaryDescription\\\":\\\"Pyypl\\\",\\\"targetCurrency\\\":\\\"AED\\\"}\",\"saveBeneficiary\":true},\"pnwPaymentBeneficiaryData\":{\"saveBeneficiary\":true,\"beneficiaryLastName\":\"KIRIETHE\",\"beneficiaryFirstName\":\"TERESIAH NJERI\",\"beneficiaryDescription\":\"Pyypl\",\"beneficiaryPhoneNumber\":\"+971545269990\"}}",
+                    "createdAt": null,
+                    "metaDataId": "9f6b598f-e590-4d54-9e6d-ca74245a4872",
+                    "updatedAt": null,
+                    "transactionRecordId": "91aca935-09ef-44bb-a545-d87307f28671"
+                }
+            ],
+            "status": "AUTHORIZED",
+            "transactionId": "a5a1df2a-cdeb-42b5-afc5-a37b2aa6873d",
+            "transactionRecordId": "91aca935-09ef-44bb-a545-d87307f28671",
+            "updatedAt": "2023-08-16T17:00:09.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "d0fc2a57-a662-4391-b8b4-b61eba10095b",
+            "amountFrom": 200,
+            "amountTo": 200,
+            "createdAt": "2023-08-16T16:58:25.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "Pyypl Fee for Local Money Transfer",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Fees",
+                    "slug": "fees",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_BILLING_FEE"
+                            ],
+                            "name": "*",
+                            "slug": "*"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_BILLING_FEE",
+                    "metaData": "{\"vat\":500,\"type\":\"FEE\",\"chargeId\":\"c4ce419e-9ef5-45d3-b806-2b8d6ab3e24b\",\"chargeEventName\":\"TRANSACTION_TO_DEALER\",\"chargedTransactionId\":\"0c5e043e-2e8d-4561-9bab-24943ae85ecf\",\"chargedTransactionRecordId\":\"7c363397-6176-4345-943c-c67e17422dfa\",\"chargedTransactionEventName\":\"PYYPL_PNW_PYYPL_TRANSFER\"}",
+                    "createdAt": null,
+                    "metaDataId": "6832cb32-68fc-4363-9a18-23e156fb86dd",
+                    "updatedAt": null,
+                    "transactionRecordId": "1a24d481-f7ad-41ce-8300-b06913e6e5b4"
+                }
+            ],
+            "status": "REFUNDED",
+            "transactionId": "c61092b5-1a3d-4cbe-a6e1-5d9e8f1f022e",
+            "transactionRecordId": "1a24d481-f7ad-41ce-8300-b06913e6e5b4",
+            "updatedAt": "2023-08-16T16:58:25.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+            "amountFrom": 2000,
+            "amountTo": 2000,
+            "createdAt": "2023-08-16T16:58:10.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "to TERESIAH NJERI KIRIETHE",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Send Money",
+                    "slug": "send-money",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_PNW_PYYPL_TRANSFER",
+                                "PYYPL_PNW_MPESA_KE_PAYMENT",
+                                "PYYPL_PNW_VODACOM_PAYMENT"
+                            ],
+                            "name": "Local Transfer",
+                            "slug": "local-transfer"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_PNW_PYYPL_TRANSFER",
+                    "metaData": "{\"type\":\"PNW_PAYMENT\",\"accountTo\":\"17d8a0a8-bd2f-490e-8f9e-174460a0e640\",\"amountFrom\":2000,\"currencyTo\":\"AED\",\"senderNote\":\"Pyypl Integration Test Note \",\"accountFrom\":\"d857f2bb-9597-410c-a637-9c1cf6ce4b70\",\"currencyFrom\":\"AED\",\"pnwPaymentSenderData\":{\"senderNote\":\"Pyypl Integration Test Note \",\"senderLastName\":\"Automation\",\"senderFirstName\":\"Pyypl\",\"senderPhoneNumber\":\"+971553162398\"},\"transferRouteOptions\":{\"beneficiaryType\":\"{\\\"type\\\":\\\"PYYPL\\\",\\\"country\\\":\\\"AE\\\",\\\"beneficiaryDescription\\\":\\\"Pyypl\\\",\\\"targetCurrency\\\":\\\"AED\\\"}\",\"saveBeneficiary\":true},\"pnwPaymentBeneficiaryData\":{\"saveBeneficiary\":true,\"beneficiaryLastName\":\"KIRIETHE\",\"beneficiaryFirstName\":\"TERESIAH NJERI\",\"beneficiaryDescription\":\"Pyypl\",\"beneficiaryPhoneNumber\":\"+971545269990\"}}",
+                    "createdAt": null,
+                    "metaDataId": "34ec02c4-53f7-408c-87c6-2614f2a228b1",
+                    "updatedAt": null,
+                    "transactionRecordId": "7c363397-6176-4345-943c-c67e17422dfa"
+                }
+            ],
+            "status": "DECLINED",
+            "transactionId": "0c5e043e-2e8d-4561-9bab-24943ae85ecf",
+            "transactionRecordId": "7c363397-6176-4345-943c-c67e17422dfa",
+            "updatedAt": "2023-08-16T16:58:10.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "d0fc2a57-a662-4391-b8b4-b61eba10095b",
+            "amountFrom": 200,
+            "amountTo": 200,
+            "createdAt": "2023-08-16T16:12:41.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "Pyypl Fee for Local Money Transfer",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Fees",
+                    "slug": "fees",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_BILLING_FEE"
+                            ],
+                            "name": "*",
+                            "slug": "*"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_BILLING_FEE",
+                    "metaData": "{\"vat\":500,\"type\":\"FEE\",\"chargeId\":\"74dc852e-98d0-4bfc-b22a-3b030ba45ee4\",\"chargeEventName\":\"TRANSACTION_TO_DEALER\",\"chargedTransactionId\":\"bb085d44-db1c-420a-bbc2-979c631f6b4d\",\"chargedTransactionRecordId\":\"3d6383f9-9834-41c4-ae78-77f3d8889e9f\",\"chargedTransactionEventName\":\"PYYPL_PNW_PYYPL_TRANSFER\"}",
+                    "createdAt": null,
+                    "metaDataId": "3541cc25-09d1-4c5f-be66-1c4a0cf3c641",
+                    "updatedAt": null,
+                    "transactionRecordId": "9fd0e192-3ed0-4bc3-8011-b028560742ad"
+                }
+            ],
+            "status": "REVERSED",
+            "transactionId": "83f0bf63-efc1-406c-853d-2fd581cd1462",
+            "transactionRecordId": "9fd0e192-3ed0-4bc3-8011-b028560742ad",
+            "updatedAt": "2023-08-16T16:12:41.000Z"
+        },
+        {
+            "accountFrom": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "accountTo": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+            "amountFrom": 2000,
+            "amountTo": 2000,
+            "createdAt": "2023-08-16T16:12:36.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "to TERESIAH NJERI KIRIETHE",
+            "transactionHistoryCategories": [
+                {
+                    "name": "Send Money",
+                    "slug": "send-money",
+                    "transactionHistorySubCategories": [
+                        {
+                            "eventNames": [
+                                "PYYPL_PNW_PYYPL_TRANSFER",
+                                "PYYPL_PNW_MPESA_KE_PAYMENT",
+                                "PYYPL_PNW_VODACOM_PAYMENT"
+                            ],
+                            "name": "Local Transfer",
+                            "slug": "local-transfer"
+                        }
+                    ]
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": "PYYPL_PNW_PYYPL_TRANSFER",
+                    "metaData": "{\"type\":\"PNW_PAYMENT\",\"accountTo\":\"17d8a0a8-bd2f-490e-8f9e-174460a0e640\",\"amountFrom\":2000,\"currencyTo\":\"AED\",\"accountFrom\":\"d857f2bb-9597-410c-a637-9c1cf6ce4b70\",\"currencyFrom\":\"AED\",\"pnwPaymentSenderData\":{\"senderNote\":\"\",\"senderLastName\":\"Automation\",\"senderFirstName\":\"Pyypl\",\"senderPhoneNumber\":\"+971553162398\"},\"transferRouteOptions\":{\"beneficiaryType\":\"{\\\"type\\\":\\\"PYYPL\\\",\\\"country\\\":\\\"AE\\\",\\\"beneficiaryDescription\\\":\\\"Pyypl\\\",\\\"targetCurrency\\\":\\\"AED\\\"}\",\"saveBeneficiary\":true},\"pnwPaymentBeneficiaryData\":{\"saveBeneficiary\":true,\"beneficiaryLastName\":\"KIRIETHE\",\"beneficiaryFirstName\":\"TERESIAH NJERI\",\"beneficiaryDescription\":\"Pyypl\",\"beneficiaryPhoneNumber\":\"+971545269990\"}}",
+                    "createdAt": null,
+                    "metaDataId": "da764686-cf89-4759-b2b1-a897855abb8f",
+                    "updatedAt": null,
+                    "transactionRecordId": "3d6383f9-9834-41c4-ae78-77f3d8889e9f"
+                }
+            ],
+            "status": "CONSUMED",
+            "transactionId": "bb085d44-db1c-420a-bbc2-979c631f6b4d",
+            "transactionRecordId": "3d6383f9-9834-41c4-ae78-77f3d8889e9f",
+            "updatedAt": "2023-08-16T16:12:36.000Z"
+        },
+        {
+            "accountFrom": "92ee55bd-6448-47e2-87fe-2b5247914863",
+            "accountTo": "d857f2bb-9597-410c-a637-9c1cf6ce4b70",
+            "amountFrom": 9000000,
+            "amountTo": 9000000,
+            "createdAt": "2023-08-16T15:53:49.000Z",
+            "currencyFrom": "AED",
+            "currencyTo": "AED",
+            "description": "Funding from Distributor",
+            "transactionHistoryCategories": [
+                {
+                    "name": "OTHER",
+                    "slug": "OTHER",
+                    "transactionHistorySubCategories": []
+                }
+            ],
+            "metadata": [
+                {
+                    "eventName": null,
+                    "metaData": null,
+                    "createdAt": null,
+                    "metaDataId": null,
+                    "updatedAt": null,
+                    "transactionRecordId": null
+                }
+            ],
+            "status": "EXPIRED",
+            "transactionId": "6cc5ae3e-a941-4941-8401-e66245da17d0",
+            "transactionRecordId": "f3332249-e46e-4342-9a6b-a575b08225e8",
+            "updatedAt": "2023-08-16T15:53:49.000Z"
+        }
+    ]
+}

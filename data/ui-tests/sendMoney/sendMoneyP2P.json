@@ -1,0 +1,21 @@
+[
+    {
+        "featureId": "P2P_UAE",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "userId": "c323293d-ffb8-53e4-6a02-549733de244b",
+        "accountId": "17d8a0a8-bd2f-490e-8f9e-174460a0e640",
+        "receiverCountry": "United Arab Emirates",
+        "receiver": "561540111",
+        "amount": "22",
+        "senderCurrency": "AED",
+        "receiverCurrency": "AED",
+        "route": "PYYPL_TO_PYYPL",
+        "logout": false,
+        "deleteApp": false,
+        "newInstance": true,
+        "senderCountryCode": "+971",
+        "receiverCountryCode": "+971"
+    }
+]

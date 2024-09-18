@@ -1,0 +1,14 @@
+[
+    {
+        "featureId": "TRANSACTION_LIST",
+        "scenarioId": "DATA",
+        "country": "United Arab Emirates",
+        "phoneNumber": "545269990",
+        "passcode": "1111",
+        "senderCurrency": "AED",
+        "logout": false,
+        "deleteApp": false,
+        "newInstance": true,
+        "senderCountryCode": "+971"
+    }
+]

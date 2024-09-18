@@ -1,0 +1,197 @@
+[{
+    "loadMethodId": "LOAD#BINANCE_PAY#1",
+    "loadSessionId": "94fb15da-938a-4bb9-bf86-e34fa981faa8",
+    "loadMethodName": "BINANCE_PAY",
+    "localeKey": "scr.loadProviders.binancePay",
+    "loadMethodFxRates": [{
+        "base": "USDT",
+        "counter": "AED",
+        "rate": 3.6361611000000003,
+        "convertedAmount": null,
+        "expiresAt": null,
+        "type": "SELL"
+    }],
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [],
+    "loadLimits": [{
+        "loadLimitAmount": 0,
+        "loadMinAmount": null,
+        "limitValue": null,
+        "loadCurrency": "AED",
+        "reason": "MAINTENANCE"
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#CASH#1",
+    "loadSessionId": "104d0760-8143-4899-99b1-cb11b25599bb",
+    "loadMethodName": "CASH",
+    "localeKey": "loadMethod.cash",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [],
+    "loadLimits": null,
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#CHECKOUT_DEBIT_CARD#1",
+    "loadSessionId": "69685422-52f5-40ce-8467-7590de53a860",
+    "loadMethodName": "CHECKOUT_DEBIT_CARD",
+    "localeKey": "scr.loadProviders.checkoutDebitCard",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": [{
+        "loadMethodKeyType": "PUBLIC_KEY",
+        "loadMethodKeyValue": "pk_test_45bf5ac5-9f30-48a3-9daf-4acc5b3f4928"
+    }],
+    "loadMethodFees": [{
+        "amount": {
+            "bips": 0,
+            "fixed": 0
+        },
+        "frequency": "oneTime",
+        "name": "Load from Local Payment Card"
+    }, {
+        "amount": {
+            "bips": 370,
+            "fixed": 0
+        },
+        "frequency": "oneTime",
+        "name": "Load from Foreign Payment Card"
+    }],
+    "loadLimits": [{
+        "loadLimitAmount": 0,
+        "loadMinAmount": null,
+        "limitValue": null,
+        "loadCurrency": "AED",
+        "reason": "MAINTENANCE"
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#CHECKOUT_PAYPAL_WALLET#1",
+    "loadSessionId": "eca80cbc-52ae-4527-b878-a6645f28b259",
+    "loadMethodName": "CHECKOUT_PAYPAL_WALLET",
+    "localeKey": "scr.loadProviders.checkoutPayPalWallet",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [],
+    "loadLimits": [{
+        "loadLimitAmount": 0,
+        "loadMinAmount": null,
+        "limitValue": null,
+        "loadCurrency": "AED",
+        "reason": "MAINTENANCE"
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#BANK_TRANSFER#1",
+    "loadSessionId": "8918f470-f4fe-44d3-84fd-cf72ce49a50e",
+    "loadMethodName": "BANK_TRANSFER",
+    "localeKey": "scr.loadProviders.bankTransfer",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [],
+    "loadLimits": [{
+        "loadLimitAmount": 0,
+        "loadMinAmount": null,
+        "limitValue": null,
+        "loadCurrency": "AED",
+        "reason": "MAINTENANCE"
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#STRIPE_DEBIT#1",
+    "loadSessionId": "80590135-f632-4c3d-8de8-6c1eec0b179e",
+    "loadMethodName": "STRIPE_DEBIT_CARD",
+    "localeKey": "scr.loadProviders.stripeDebitCard",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": [{
+        "loadMethodKeyType": "PUBLIC_KEY",
+        "loadMethodKeyValue": "pk_test_51KYVFOFmOdcLKpmUMNwhZkfF3XDTR9SoPea6QLyXQmzgIZMLLFa4OMooxFsToSTtuKFx6kEn53Wfmqf6BYE9DMdj00nRWrQYft"
+    }],
+    "loadMethodFees": [{
+        "amount": {
+            "bips": 0,
+            "fixed": 0
+        },
+        "frequency": "oneTime",
+        "name": "Load from Local Payment Card"
+    }, {
+        "amount": {
+            "bips": 370,
+            "fixed": 0
+        },
+        "frequency": "oneTime",
+        "name": "Load from Foreign Payment Card"
+    }],
+    "loadLimits": [{
+        "loadLimitAmount": 0,
+        "loadMinAmount": null,
+        "limitValue": null,
+        "loadCurrency": "AED",
+        "reason": "MAINTENANCE"
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "EXCHANGE#CRYPTO_PNW#1",
+    "loadSessionId": "73f46248-f0b9-4f30-b51f-6e7e85618de2",
+    "loadMethodName": "CRYPTO_PNW",
+    "localeKey": "scr.loadProviders.cryptoExchange",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [],
+    "loadLimits": [{
+        "loadLimitAmount": 21528,
+        "loadMinAmount": 100,
+        "limitValue": 500000,
+        "loadCurrency": "AED",
+        "reason": null
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#PAYME#1",
+    "loadSessionId": "65eaf7ac-2b46-4308-88ef-9f62ca5fbdd2",
+    "loadMethodName": "PAYME",
+    "localeKey": "scr.loadProviders.payMe",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [{
+        "amount": {
+            "bips": 230,
+            "fixed": 0
+        },
+        "frequency": "oneTime",
+        "name": "PAY Me link - Local card"
+    }, {
+        "amount": {
+            "bips": 230,
+            "fixed": 0
+        },
+        "frequency": "oneTime",
+        "name": "PAY Me link - International card"
+    }],
+    "loadLimits": [{
+        "loadLimitAmount": 0,
+        "loadMinAmount": null,
+        "limitValue": null,
+        "loadCurrency": "AED",
+        "reason": "MAINTENANCE"
+    }],
+    "loadMethodIcon": null
+}, {
+    "loadMethodId": "LOAD#QR_CODE#1",
+    "loadSessionId": "def9da8d-c6cc-4073-98ff-f53c0a6863ff",
+    "loadMethodName": "QR_CODE",
+    "localeKey": "loadMethod.qrCode",
+    "loadMethodFxRates": null,
+    "loadMethodLoadCurrency": "AED",
+    "loadMethodKeys": null,
+    "loadMethodFees": [],
+    "loadLimits": null,
+    "loadMethodIcon": null
+}]

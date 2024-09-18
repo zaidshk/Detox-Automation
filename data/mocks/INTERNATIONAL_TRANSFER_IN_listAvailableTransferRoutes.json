@@ -1,0 +1,618 @@
+[
+    {
+        "transferId": "0377cd40-2957-481c-8137-bb679508bb5f",
+        "transferRouteId": "PNW#IN#PNW#INRBDTTHB#BANKREALTIME#001",
+        "transferRouteTargetCurrency": "INR",
+        "transferRoutePurchaseCurrency": "AED",
+        "transferRouteMinAmount": "0",
+        "transferRouteMaxAmount": "494472",
+        "transferRouteDestinationCountry": "IN",
+        "transferRouteDescription": null,
+        "transferRoutePayoutMethodId": "PNW#INRBDTTHB#BANKREALTIME#001",
+        "transferRoutePayoutMethodType": "BANK",
+        "transferRouteDailyAllowedLimit": null,
+        "transferRouteTransactionAllowedLimit": null,
+        "transferRouteTargetAccountId": null,
+        "transferRouteEstimatedDuration": "INSTANT",
+        "transferRoutePnwProcessorPaymentMethodQuoteId": "2eff66be-2272-4353-b747-9cfeb8091116",
+        "transferRouteTargetUser": null,
+        "transferRouteFees": [
+            {
+                "amount": 0,
+                "currency": "AED"
+            }
+        ],
+        "transferRoutePayoutTargets": [
+            {
+                "payoutTargetCode": "9100005",
+                "payoutTargetName": "ANDHRA BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100006",
+                "payoutTargetName": "AXIS BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100009",
+                "payoutTargetName": "BANK OF BARODA",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100012",
+                "payoutTargetName": "BANK OF MAHARASHTRA",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100019",
+                "payoutTargetName": "CANARA BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100020",
+                "payoutTargetName": "CSB BANK LIMITED",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100021",
+                "payoutTargetName": "CENTRAL BANK OF INDIA",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100025",
+                "payoutTargetName": "CITY UNION BANK LIMITED",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100026",
+                "payoutTargetName": "CORPORATION BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100036",
+                "payoutTargetName": "FEDERAL BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100039",
+                "payoutTargetName": "HDFC BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100041",
+                "payoutTargetName": "ICICI BANK LIMITED",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100043",
+                "payoutTargetName": "INDIAN BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100044",
+                "payoutTargetName": "INDIAN OVERSEAS BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100045",
+                "payoutTargetName": "INDUSIND BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100055",
+                "payoutTargetName": "KARNATAKA BANK LIMITED",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100056",
+                "payoutTargetName": "KARUR VYSYA BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100057",
+                "payoutTargetName": "KOTAK MAHINDRA BANK LIMITED",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100075",
+                "payoutTargetName": "PUNJAB NATIONAL BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100083",
+                "payoutTargetName": "SOUTH INDIAN BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100085",
+                "payoutTargetName": "STANDARD CHARTERED BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100087",
+                "payoutTargetName": "STATE BANK OF INDIA",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100094",
+                "payoutTargetName": "TAMILNAD MERCANTILE BANK LIMITED",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100106",
+                "payoutTargetName": "UCO BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100107",
+                "payoutTargetName": "UNION BANK OF INDIA",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100110",
+                "payoutTargetName": "YES BANK LTD",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100170",
+                "payoutTargetName": "PAYTM PAYMENTS BANK",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "9100171",
+                "payoutTargetName": "AIRTEL PAYMENTS BANK LTD",
+                "payoutTargetType": null
+            }
+        ],
+        "transferRouteFXRate": {
+            "base": "AED",
+            "counter": "INR",
+            "rate": 20.3814713896458,
+            "convertedAmount": null
+        },
+        "transferRouteRequiredUserInformation": [
+            {
+                "userInformationFieldName": "senderSourceOfCash",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Sender Source of Cash",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "REPY",
+                    "SELF",
+                    "EMIN",
+                    "SVGS",
+                    "GIFT",
+                    "INHE",
+                    "REDM",
+                    "WINS",
+                    "INLQ",
+                    "SALE",
+                    "REST",
+                    "SEAQ",
+                    "CASH",
+                    "ALMY",
+                    "COMP",
+                    "RETA",
+                    "PACA"
+                ],
+                "userInformationFieldGroupName": "SENDER_DATA",
+                "userInformationFieldSections": [
+                    "SENDER_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryFirstName",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary First Name",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryLastName",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary Last Name",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryRelationshipToSender",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Beneficiary Relationship to Sender",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "SELF",
+                    "EMPL",
+                    "VEND",
+                    "OTHR",
+                    "CHIL",
+                    "PARE",
+                    "SPOU",
+                    "RELA",
+                    "SIBL",
+                    "EXSP",
+                    "CUST",
+                    "PART"
+                ],
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryIdentityDocumentType",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Beneficiary Identity Document Type",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "ARNU",
+                    "CCPT",
+                    "CUST",
+                    "DRLC",
+                    "EMPL",
+                    "NIDN",
+                    "SOS",
+                    "TXID"
+                ],
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryIdentityDocumentNumber",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary Identity Document Number",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryTargetInstitutionId",
+                "userInformationFieldValueType": "PAYOUT_TARGET",
+                "userInformationFieldDescription": "Beneficiary Target Institution Id",
+                "userInformationFieldLabel": "BANK_TARGET_PAYOUT_ID",
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BANK_PAYOUT_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "paymentPurposeCode",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Payment Purpose Code",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "DEPT",
+                    "INTC",
+                    "BEXP",
+                    "LICF",
+                    "SUBS",
+                    "COMP",
+                    "LOAN",
+                    "LOAR",
+                    "EDUC",
+                    "FEES",
+                    "IVPT",
+                    "RENT",
+                    "STDY",
+                    "TBIL",
+                    "INVS",
+                    "MDCS",
+                    "ALLW",
+                    "BONU",
+                    "COMM",
+                    "PAYR",
+                    "SALA",
+                    "GSTX",
+                    "TAXS",
+                    "VATX",
+                    "UBIL",
+                    "ACCT",
+                    "FAMI",
+                    "GIFT",
+                    "OTHR",
+                    "OCDM",
+                    "OCFG"
+                ],
+                "userInformationFieldGroupName": "PAYMENT_DATA",
+                "userInformationFieldSections": [
+                    "PAYMENT_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryLocalAccountNumber",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary Local Account Number",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BANK_PAYOUT_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryTargetInstitutionBranchId",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "beneficiary target branch id",
+                "userInformationFieldLabel": "IFSC_CODE",
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BANK_PAYOUT_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            }
+        ],
+        "transferRouteFixedAmounts": null
+    },
+    {
+        "transferId": "8663a382-4d66-4937-a3fe-8a951b94444f",
+        "transferRouteId": "PNW#IN#PNW#PK#CASH#001",
+        "transferRouteTargetCurrency": "INR",
+        "transferRoutePurchaseCurrency": "AED",
+        "transferRouteMinAmount": "0",
+        "transferRouteMaxAmount": "494472",
+        "transferRouteDestinationCountry": "IN",
+        "transferRouteDescription": null,
+        "transferRoutePayoutMethodId": "PNW#PK#CASH#001",
+        "transferRoutePayoutMethodType": "CASH",
+        "transferRouteDailyAllowedLimit": null,
+        "transferRouteTransactionAllowedLimit": null,
+        "transferRouteTargetAccountId": null,
+        "transferRouteEstimatedDuration": "FIFTEEN_MINUTES",
+        "transferRoutePnwProcessorPaymentMethodQuoteId": "f8949f46-f1ca-4c23-8f14-51ab6a675138",
+        "transferRouteTargetUser": null,
+        "transferRouteFees": [
+            {
+                "amount": 0,
+                "currency": "AED"
+            }
+        ],
+        "transferRoutePayoutTargets": [
+            {
+                "payoutTargetCode": "CPMUTFI",
+                "payoutTargetName": "Muthoot Finance",
+                "payoutTargetType": null
+            },
+            {
+                "payoutTargetCode": "CPMF",
+                "payoutTargetName": "Manappuram Finance",
+                "payoutTargetType": null
+            }
+        ],
+        "transferRouteFXRate": {
+            "base": "AED",
+            "counter": "INR",
+            "rate": 20.3814713896458,
+            "convertedAmount": null
+        },
+        "transferRouteRequiredUserInformation": [
+            {
+                "userInformationFieldName": "senderSourceOfCash",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Sender Source of Cash",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "REPY",
+                    "SELF",
+                    "EMIN",
+                    "SVGS",
+                    "GIFT",
+                    "INHE",
+                    "REDM",
+                    "WINS",
+                    "INLQ",
+                    "SALE",
+                    "REST",
+                    "SEAQ",
+                    "CASH",
+                    "ALMY",
+                    "COMP",
+                    "RETA",
+                    "PACA"
+                ],
+                "userInformationFieldGroupName": "SENDER_DATA",
+                "userInformationFieldSections": [
+                    "SENDER_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryFirstName",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary First Name",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryLastName",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary Last Name",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryRelationshipToSender",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Beneficiary Relationship to Sender",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "SELF",
+                    "EMPL",
+                    "VEND",
+                    "OTHR",
+                    "CHIL",
+                    "PARE",
+                    "SPOU",
+                    "RELA",
+                    "SIBL",
+                    "EXSP",
+                    "CUST",
+                    "PART"
+                ],
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryIdentityDocumentType",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Beneficiary Identity Document Type",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "ARNU",
+                    "CCPT",
+                    "CUST",
+                    "DRLC",
+                    "EMPL",
+                    "NIDN",
+                    "SOS",
+                    "TXID"
+                ],
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "beneficiaryIdentityDocumentNumber",
+                "userInformationFieldValueType": "STRING",
+                "userInformationFieldDescription": "Beneficiary Identity Document Number",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "BENEFICIARY_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": "{\"flags\":\"\",\"source\":\"^[a-zA-Z0-9_. -+]*$\"}",
+                "userInformationFieldStringMaxLength": 50,
+                "userInformationFieldStringMinLength": 1
+            },
+            {
+                "userInformationFieldName": "beneficiaryTargetInstitutionId",
+                "userInformationFieldValueType": "PAYOUT_TARGET",
+                "userInformationFieldDescription": "Beneficiary Target Institution Id",
+                "userInformationFieldLabel": "CASH_TARGET_PAYOUT_ID",
+                "userInformationFieldAllowedValues": null,
+                "userInformationFieldGroupName": "BENEFICIARY_DATA",
+                "userInformationFieldSections": [
+                    "CASH_PAYOUT_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            },
+            {
+                "userInformationFieldName": "paymentPurposeCode",
+                "userInformationFieldValueType": "ENUM",
+                "userInformationFieldDescription": "Payment Purpose Code",
+                "userInformationFieldLabel": null,
+                "userInformationFieldAllowedValues": [
+                    "DEPT",
+                    "INTC",
+                    "BEXP",
+                    "LICF",
+                    "SUBS",
+                    "COMP",
+                    "LOAN",
+                    "LOAR",
+                    "EDUC",
+                    "FEES",
+                    "IVPT",
+                    "RENT",
+                    "STDY",
+                    "TBIL",
+                    "INVS",
+                    "MDCS",
+                    "ALLW",
+                    "BONU",
+                    "COMM",
+                    "PAYR",
+                    "SALA",
+                    "GSTX",
+                    "TAXS",
+                    "VATX",
+                    "UBIL",
+                    "ACCT",
+                    "FAMI",
+                    "GIFT",
+                    "OTHR",
+                    "OCDM",
+                    "OCFG"
+                ],
+                "userInformationFieldGroupName": "PAYMENT_DATA",
+                "userInformationFieldSections": [
+                    "PAYMENT_DATA_SECTION"
+                ],
+                "userInformationFieldValidationRegexp": null,
+                "userInformationFieldStringMaxLength": null,
+                "userInformationFieldStringMinLength": null
+            }
+        ],
+        "transferRouteFixedAmounts": null
+    }
+]

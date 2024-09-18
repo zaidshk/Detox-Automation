@@ -1,0 +1,14 @@
+[
+    {
+        "country": "United Arab Emirates",
+        "phoneNumber": "505500111",
+        "passcode": "1111",
+        "countryCode": "+971",
+        "deleteApp": false,
+        "newInstance": true,
+        "logout": true,
+        "accountCards": [],
+        "testID": "CARD_NEWCARD",
+        "userType": "newUserWithBalance"
+    }
+]
